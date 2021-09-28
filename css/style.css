@@ -1,1 +1,22 @@
-:root{ --bs-dark-rgb: 44,62,88; }
+:root{ --bs-dark-rgb: 44,62,88; /* Colore sfondo NAV */
+    
+       --bs-success-rgb: 26, 188, 156 /* Colore sfondo Hero */
+}
+
+.my-star { display: flex;
+           justify-content: center;
+           align-items: center;}
+
+
+.line { width: 75px;
+        height: 2px;
+        background-color: white;}
+
+.star { padding: 0 15px;}
+
+p {
+    margin-bottom: 0;
+}
+
+
+
