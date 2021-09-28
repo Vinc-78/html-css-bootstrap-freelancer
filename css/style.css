@@ -14,9 +14,17 @@
 
 .star { padding: 0 15px;}
 
-p {
-    margin-bottom: 0;
-}
 
+.star .white-star{ fill:white;}
+
+.star .dark-star { fill: rgb(44, 62, 80);}
+
+
+.line.dark {background-color: rgb(44, 62, 80);}
+
+.my-box { height: 200px;
+         ;
+
+          border: 1px solid red;}
 
 
