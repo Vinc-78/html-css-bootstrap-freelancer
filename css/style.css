@@ -41,3 +41,35 @@
                height: 35px;
                line-height: 35px;
                     }
+
+/* Hover su immagini */
+
+.contein { position: relative;
+           }
+
+.contein .overlay { position: absolute;
+                    height: 100%;
+                    top:0;
+                    left:0;
+                    background-color: rgba(0,0,0,0.5);
+                    border-radius: 10px;
+                    color:white;
+                    padding-top:20px;
+                    animation: elevator 0.3s; 
+                    display: none;
+                }
+
+.contein:hover  .overlay { display: block; }
+                      
+
+
+@keyframes elevator {
+
+0% { top:100%;}
+25% { top:75%;}
+50% { top:50%;}
+75% {top:25%;}
+100%{top:0%;}
+
+
+}
