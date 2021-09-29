@@ -78,4 +78,7 @@
 
 
 
-.hamburger button:active  .hamburger ul { display: block!important; } 
+
+/* per attivare il menù in modalità mobile */
+
+.hamburger>.btn:active  +.list-inline { display: block!important; } 
