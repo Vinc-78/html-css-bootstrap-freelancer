@@ -22,10 +22,7 @@
 
 .line.dark {background-color: rgb(44, 62, 80);}
 
-.my-box { height: 200px;
-         ;
 
-          border: 1px solid red;}
           
 
 .black { background-color: black;
@@ -38,3 +35,9 @@
 
 #footer-link { text-decoration: none;
                 color: rgb(26, 188, 156);}
+
+.network li i {
+               width: 35px;
+               height: 35px;
+               line-height: 35px;
+                    }
