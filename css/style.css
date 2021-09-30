@@ -78,7 +78,16 @@
 
 
 
-
 /* per attivare il menù in modalità mobile */
 
 .hamburger>.btn:active  +.list-inline { display: block!important; } 
+
+
+/* hover sui social  */
+.facebook:hover { color:blue;}
+
+.plus:hover { color:red;}
+
+.twitter:hover { color:yellowgreen}
+
+.in:hover { color:brown}
